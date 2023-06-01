@@ -11,6 +11,8 @@
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Bai Jamjuree' rel='stylesheet'>
+
+
 </head>
 
 <body>
@@ -50,7 +52,7 @@
         <br>
         <h3>Sell Your Car on Automotive Studio and Get the Best Price</h3>
         <div class="center">
-            <button id="start" type="button" onclick=""><a href="login.html">GET STARTED</a></button>
+            <button id="start" type="button">GET STARTED</button>
         </div>
     </section>
     <!--end body section  -->
@@ -58,6 +60,12 @@
         <p>© All Rights Reserved. Design by <a href="#"> Rania </a></p>
     </footer>
 
+    <!-- -------------------------- SCRIPTS HERE ------------------------------------ -->
+    <script defer>
+        document.getElementById('start').addEventListener('click', function () {
+            window.location.href = 'login.html';
+        });
+    </script>
 </body>
 
 </html>
