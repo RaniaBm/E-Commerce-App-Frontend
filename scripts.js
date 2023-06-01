@@ -1,4 +1,10 @@
+// <!-- -------------------------- SCRIPTS HERE ------------------------------------ -->
 
+// added index script 
+
+document.getElementById('start').addEventListener('click', function () {
+    window.location.href = 'login.html';
+});
 
 // Registeration JS Script
 
@@ -114,7 +120,7 @@ function loginformValidation() {
 function showloginsuccess() {
     if (loginformValidation()) {
         const adminloggedin = 1 // 0 is admin by default 
-        
+
         if (adminloggedin) {    //  1 ( is admin )
             alert('Admin Logged In Successfully! Uzman check code ')
             window.location.href = 'adminhome.html';
