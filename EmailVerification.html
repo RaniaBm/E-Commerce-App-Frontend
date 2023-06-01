@@ -11,6 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Bai Jamjuree' rel='stylesheet'>
+    <script src="scripts.js"></script>
 </head>
 
 <body>
@@ -36,12 +37,12 @@
         Account.</p>
     <div>
         <div class="center">
-            <form action="">
+            <form name="EmailVerificationForm" action="" onsubmit="return EmailformValidation()">
                 <div class="centerbox">
-                        <input type="text" name="mycode" id="codeID" placeholder="Enter your code here...">
+                        <input type="text" name="code" placeholder="Enter your code here...">
                     </div>
                     <div class="center">
-                        <button type="button" onclick="">VERIFY</button>
+                        <button type="button" onclick="return showVerification()">VERIFY</button>
                     </div>
                     [verify will register the user and goes to home.html]
                 </div>

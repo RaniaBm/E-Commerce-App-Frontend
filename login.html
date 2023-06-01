@@ -11,6 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Bai Jamjuree' rel='stylesheet'>
+    <script src="scripts.js"></script>
 </head>
 
 <body>
@@ -33,16 +34,16 @@
         </div>
         <h3> WELCOME TO THE AUTOMOTIVE STUDIO</h3>
         <div class="center">
-            <form action="">
+            <form  name="loginForm" action="" onsubmit="return loginformValidation()">
                 <div class="centerbox">
                     <div>
-                        <input type="text" name="myEmailID" id="EmailID" placeholder="Enter your Email ID">
+                        <input type="text" name="userEmail" placeholder="Enter your Email ID">
                     </div>
                     <div>
-                        <input type="password" name="myPasswordID" id="Password" placeholder="Password">
+                        <input type="password" name="userPassword" placeholder="Password">
                     </div>
                     <div class="center">
-                        <button type="button" onclick="">LOG IN</button>  
+                        <button type="button" onclick="return showloginsuccess()">LOG IN</button>  
                     </div>
                     [admin login will log into adminhome.html and user login will loginto home.html]
                 </div>

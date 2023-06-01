@@ -58,3 +58,72 @@ function showSuccess() {
 }
 
 // Ended Registeration JS Script
+
+// Email verification JS Script
+
+function EmailformValidation() {
+    const code = document.forms["EmailVerificationForm"]["code"].value;
+    counter = 1;
+    if (code != "") {
+        alert("nodemailer, code here if === verified. Uzman work on it plz")
+        return counter === 1;
+    }
+    else {
+        counter--;
+        alert("Please Enter Verification Code That We Sent In Order To Activate Your Account.");
+    }
+
+}
+
+function showVerification() {
+
+    if (EmailformValidation()) {
+
+        alert('Verified Successfully! You are registered.')
+        window.location.href = 'home.html';
+    }
+    // admin = 0;
+    // if (EmailformValidation()) {
+    //     alert('Verified Successfully! You are registered.')
+    //     if (admin)  // admin = 1 ( is admin )
+    //         window.location.href = 'adminhome.html';
+    //     else {   // admin = 0 ( is user )
+
+    //     }
+    // }
+}
+
+// Ended Email verification JS Script
+
+
+// Login JS Script
+
+
+function loginformValidation() {
+    const userEmail = document.forms["loginForm"]["userEmail"].value;
+    const myPassword = document.forms["loginForm"]["userPassword"].value;
+
+    if (userEmail != "" && myPassword != "") {
+        alert("check from the database tht the user or admin exist or not ! if isadmin goto adminhome.html else goto home.html  Uzman work on it plz")
+        return 1;
+    }
+    alert("Please Enter all the fields");
+    return 0
+}
+
+function showloginsuccess() {
+    if (loginformValidation()) {
+        const adminloggedin = 0 // 0 is user by default 
+        
+        if (adminloggedin) {    //  1 ( is admin )
+            alert('Admin Logged In Successfully! Uzman check code ')
+            window.location.href = 'adminhome.html';
+        }
+        else {   //  0 ( is user )
+            alert('User Logged In Successfully!  Uzman check code ')
+            window.location.href = 'home.html';
+        }
+    }
+}
+
+// Ended Login JS Script
