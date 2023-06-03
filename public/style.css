@@ -136,7 +136,7 @@ a {
 }
 
 h3 {
-    margin: 10px;
+    margin: 5px;
     font-family: 'Caveat';
     font-size: 22px;
 }
@@ -222,9 +222,8 @@ textarea {
 
 .centerbox {
     border-radius: 30px;
-    padding: 15px 100px;
-    /* margin: 30px; */
-    margin-top: 30px;
+    padding: 10px 100px;
+    margin-top: 10px;
     border: 2px solid rgb(108, 108, 108);
 }
 
