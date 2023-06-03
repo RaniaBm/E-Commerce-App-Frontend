@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>add Admin</title>
+    <title>Update user</title>
     <link rel="stylesheet" href="/public/style.css">
     <link href='https://fonts.googleapis.com/css?family=Cairo' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Bai Jamjuree' rel='stylesheet'>
+    <script src="scripts.js"></script>
 </head>
 
 <body>
@@ -34,27 +35,26 @@
         <div class="leftcenter">
             <img src="/public/Images/logo.png" alt="logo">
         </div>
-        <h3>ADD THE ADMIN</h3>
+        <h3>UPDATE THE USER</h3>
         <div class="center">
-            <form action="">
+            <form name="registrationForm" action="" onsubmit="return formValidation()">
                 <div class="centerbox">
                     <div>
-                        <input type="text" name="myEmailID" id="EmailID" placeholder="Enter the Email ID">
+                        <input type="text" name="userName" placeholder="Enter the Name">
                     </div>
                     <div>
-                        <input type="text" name="myNameID" id="NameID" placeholder="Enter the Name">
+                        <input type="text" name="userEmail" placeholder="Enter the Email ID">
                     </div>
                     <div>
                         <input type="text" name="userPhone" placeholder="Enter the Phone Number">
                     </div>
                     <div>
-                        <input type="password" name="myPasswordID" id="Password" placeholder="Password">
+                        <input type="password" name="userPassword" placeholder="Password">
                     </div>
                     <div class="center">
-                        <button type="button" onclick="">ADD ADMIN</button>
+                        <button type="button" onclick="return showSuccess()">UPDATE USER</button>
                     </div>
                 </div>
-            </form>
         </div>
 
     </section>

@@ -29,7 +29,7 @@ table {
 }
 
 .displayimg {
-    width: 260px;
+    width: 150px;
 }
 
 th {
@@ -95,18 +95,23 @@ footer {
 .container textarea {
     background-color: #e3e3e3;
 }
-.items img{
-width: 360px;
+
+.items img {
+    width: 360px;
 }
-#start a{
+
+#start a {
     color: white;
 }
-#start a:hover{
+
+#start a:hover {
     color: rgb(0, 0, 0);
 }
-input[type=file]{
+
+input[type=file] {
     background-color: white;
 }
+
 .container {
     margin-left: 100px;
     padding: 10px 20px;
@@ -192,6 +197,16 @@ img[alt=buy] {
 .one:hover {
     color: rgb(143, 29, 29);
     font-weight: bold;
+}
+
+.productid {
+    width: 30px;
+    height: 200px;
+}
+
+.productblocks {
+    width: 250px;
+    height: 200px;
 }
 
 .title {
