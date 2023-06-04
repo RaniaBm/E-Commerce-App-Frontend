@@ -209,6 +209,29 @@ img[alt=buy] {
     height: 180px;
 }
 
+.search {
+    color: white;
+    background-color: rgb(143, 29, 29);
+    cursor: pointer;
+    width: 90px;
+    height:30px;
+    transition: 0.5s;
+}
+.search:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(212, 212, 212);
+}
+.centerbox2{
+    padding: 10px 10px;
+    margin: 10px 500px;
+}
+.pages{
+    padding: 0px 16px;
+    color: #3f3f3f;
+}
+.pages:hover{
+    background-color: #ffffff;
+}
 .title {
     float: none;
     margin-right: 600px;
