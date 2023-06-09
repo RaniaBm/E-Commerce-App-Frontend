@@ -87,9 +87,6 @@ td {
     color: #000000;
 }
 
-footer {
-    margin: 10px;
-}
 .container input,
 .container textarea {
     background-color: #e3e3e3;
@@ -212,24 +209,29 @@ img[alt=buy] {
     background-color: rgb(143, 29, 29);
     cursor: pointer;
     width: 90px;
-    height:30px;
+    height: 30px;
     transition: 0.5s;
 }
+
 .search:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(212, 212, 212);
 }
-.centerbox2{
+
+.centerbox2 {
     padding: 10px 10px;
     margin: 10px 500px;
 }
-.pages{
+
+.pages {
     padding: 0px 16px;
     color: #3f3f3f;
 }
-.pages:hover{
+
+.pages:hover {
     background-color: #ffffff;
 }
+
 .title {
     float: left;
     font-weight: bold;
@@ -293,40 +295,40 @@ button:hover {
     color: #000000;
 }
 
+/* ----------------------------------- */
 
 .account {
+    margin: 5px;
     text-align: center;
     font-size: small;
     font-family: 'Cairo';
     font-size: 16px;
 }
 
-ul.navbar {
-    list-style-type: none;
-    margin: -10px;
-    padding-top: 10px;
-    overflow: hidden;
-    height: 60px;
-    background-color: rgb(143, 29, 29);
-
+footer {
+    margin-top: 25px;
 }
 
-/* Style for each navigation item */
+/* ----------------------------------- */
+
+ul.navbar {
+    list-style-type: none;
+    overflow: hidden;
+}
+
 ul.navbar li {
     float: right;
 }
 
-/* Style for the navigation links */
 ul.navbar li a {
     display: block;
     padding: 14px 12px;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-right: 20px;
 }
 
-/* Change the link color on hover */
 ul.navbar li a:hover {
-    color: #000000;
-    background-color: #d2d2d2;
+    color: #800303;
+    /* background-color: #d2d2d2; */
 }

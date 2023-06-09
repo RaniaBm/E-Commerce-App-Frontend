@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,28 +12,20 @@
     <link href='https://fonts.googleapis.com/css?family=Bai Jamjuree' rel='stylesheet'>
     <script src="scripts.js"></script>
 </head>
-
 <body>
     <header>
-        <div class="headerclass">
-
-            <ul class="navbar">
-                <!-- <img class="logo" src="Images/logo.png" alt=""> -->
-                <li><a href="login.html">LOG IN</a></li>
-                <li><a href="signup.html">SIGN UP</a></li>
-                <li><a href="index.html">HOME</a></li>
-                <li class="title">AUTOMOTIVE STUDIO</li>
-            </ul>
-        </div>
+        <img style="float: left;" class="leftcenter" src="/public/Images/logo.png" alt="logo">
+        <h2 class="title">AUTOMOTIVE STUDIO</h2>
+        <ul class="navbar">
+            <li><a href="login.html">LOG IN</a></li>
+            <li><a href="signup.html">SIGN UP</a></li>
+            <li><a href="index.html">HOME</a></li>
+        </ul>
     </header>
-    <!-- body section  -->
     <section>
-        <div class="leftcenter">
-            <img class="leftcenter" src="/public/Images/logo.png" alt="logo">
-        </div>
-        <h3> WELCOME TO THE AUTOMOTIVE STUDIO</h3>
+        <h3 style="text-align: center; padding-top: 100px;">WELCOME TO THE AUTOMOTIVE STUDIO</h3>
         <div class="center">
-            <form  name="loginForm" action="" onsubmit="return loginformValidation()">
+            <form name="loginForm" action="" onsubmit="return loginformValidation()">
                 <div class="centerbox">
                     <div>
                         <input type="text" name="userEmail" placeholder="Enter your Email ID">
@@ -43,22 +34,17 @@
                         <input type="password" name="userPassword" placeholder="Password">
                     </div>
                     <div class="center">
-                        <button type="button" onclick="return showloginsuccess()">LOG IN</button>  
+                        <button type="button" onclick="return showloginsuccess()">LOG IN</button>
                     </div>
-                    [admin login will log into adminhome.html and user login will loginto home.html]
                 </div>
                 <div class="account">
-                    <h4>Don't have an account? <a href="signup.html">Sign Up</a></h4>
+                    Don't have an account? <a href="signup.html">Sign Up</a>
                 </div>
             </form>
         </div>
-
     </section>
-    <!--end body section  -->
     <footer>
         <p>© All Rights Reserved. Design by <a href="#"> Rania </a></p>
     </footer>
-
 </body>
-
 </html>
