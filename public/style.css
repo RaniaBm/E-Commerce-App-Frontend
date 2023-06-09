@@ -90,14 +90,13 @@ td {
 footer {
     margin: 10px;
 }
-
 .container input,
 .container textarea {
     background-color: #e3e3e3;
 }
 
 .items img {
-    width: 360px;
+    width: 200px;
 }
 
 #start a {
@@ -141,7 +140,7 @@ a {
 }
 
 h3 {
-    margin: 5px;
+    margin: 20px;
     font-family: 'Caveat';
     font-size: 22px;
 }
@@ -163,8 +162,7 @@ img[alt=aboutlogo] {
 }
 
 img[alt=logo] {
-    margin-top: 10px;
-    margin-left: 120px;
+    margin-left: 100px;
     width: 100px;
 }
 
@@ -233,15 +231,12 @@ img[alt=buy] {
     background-color: #ffffff;
 }
 .title {
-    float: none;
-    margin-right: 600px;
+    float: left;
     font-weight: bold;
-    font-size: large;
-    padding-top: 13px;
+    padding-top: 12px;
     font-family: 'Aclonica';
-    font-size: 22px;
-    /* font-size: 46px; */
-    color: white;
+    font-size: 20px;
+    color: black;
 }
 
 textarea {
