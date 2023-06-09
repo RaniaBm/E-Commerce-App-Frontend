@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,24 +12,17 @@
     <link href='https://fonts.googleapis.com/css?family=Bai Jamjuree' rel='stylesheet'>
     <script src="scripts.js"></script>
 </head>
-
 <body>
     <header>
-        <div class="headerclass">
-
-            <ul class="navbar">
-                <li><a href="login.html">LOG IN</a></li>
-                <li><a href="signup.html">SIGN UP</a></li>
-                <li><a href="index.html">HOME</a></li>
-                <li class="title">AUTOMOTIVE STUDIO</li>
-            </ul>
-        </div>
+        <img style="float: left;" class="leftcenter" src="/public/Images/logo.png" alt="logo">
+        <h2 class="title">AUTOMOTIVE STUDIO</h2>
+        <ul class="navbar">
+            <li><a href="login.html">LOG IN</a></li>
+            <li><a href="signup.html">SIGN UP</a></li>
+            <li><a href="index.html">HOME</a></li>
+        </ul>
     </header>
-    <!-- body section  -->
     <section>
-        <div class="leftcenter">
-            <img src="/public/Images/logo.png" alt="logo">
-        </div>
         <h3>NEED TO REGISTER FIRST</h3>
         <div class="center">
             <form name="registrationForm" action="" onsubmit="return formValidation()">
@@ -50,20 +42,15 @@
                     <div class="center">
                         <button type="button" onclick="return showSuccess()">REGISTER</button>
                     </div>
-                    [User will register after verification, goes to emailverification.html]
                 </div>
                 <div class="account">
-                    <h4>Already Registered? <a href="login.html">LOGIN HERE</a></h4>
+                    Already Registered? <a href="login.html">LOGIN HERE</a>
                 </div>
             </form>
         </div>
-
     </section>
-    <!--end body section  -->
     <footer>
         <p>© All Rights Reserved. Design by <a href="#"> Rania </a></p>
     </footer>
-
 </body>
-
 </html>
