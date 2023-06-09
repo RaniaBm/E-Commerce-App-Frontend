@@ -39,7 +39,7 @@ th {
 }
 
 td {
-    padding: 2px;
+    padding: 4px;
 }
 
 .dropdown-btn {
@@ -183,13 +183,17 @@ img[alt=buy] {
 }
 
 .one {
-    font-size: 22px;
-    margin: 10px 30px;
+    font-size: 16px;
+    margin: 50px 50px;
+    padding: 5px 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    transition: 0.5s;
 }
 
 .one:hover {
-    color: rgb(143, 29, 29);
-    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(143, 29, 29);
 }
 
 .productid {
@@ -328,5 +332,5 @@ ul.navbar li a {
 
 ul.navbar li a:hover {
     color: #800303;
-    /* background-color: #d2d2d2; */
+    background-color: #ffffff;
 }
