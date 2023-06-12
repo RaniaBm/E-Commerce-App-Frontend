@@ -71,7 +71,7 @@ function EmailformValidation() {
     const code = document.forms["EmailVerificationForm"]["code"].value;
     counter = 1;
     if (code != "") {
-        alert("nodemailer, code here if === verified. Uzman work on it plz")
+        alert("nodemailer, code here if === verified")
         return counter === 1;
     }
     else {
@@ -88,15 +88,6 @@ function showVerification() {
         alert('Verified Successfully! You are registered.')
         window.location.href = 'home.html';
     }
-    // admin = 0;
-    // if (EmailformValidation()) {
-    //     alert('Verified Successfully! You are registered.')
-    //     if (admin)  // admin = 1 ( is admin )
-    //         window.location.href = 'adminhome.html';
-    //     else {   // admin = 0 ( is user )
-
-    //     }
-    // }
 }
 
 // Ended Email verification JS Script
@@ -110,7 +101,7 @@ function loginformValidation() {
     const myPassword = document.forms["loginForm"]["userPassword"].value;
 
     if (userEmail != "" && myPassword != "") {
-        alert("check from the database tht the user or admin exist or not ! if isadmin goto adminhome.html else goto home.html  Uzman work on it plz")
+        alert("check from the database tht the user or admin exist or not ! if isadmin goto adminhome.html else goto home.html")
         return 1;
     }
     alert("Please Enter all the fields");
@@ -122,11 +113,11 @@ function showloginsuccess() {
         const adminloggedin = 1 // 0 is admin by default 
 
         if (adminloggedin) {    //  1 ( is admin )
-            alert('Admin Logged In Successfully! Uzman check code ')
+            alert('Admin Logged In Successfully!')
             window.location.href = 'adminhome.html';
         }
         else {   //  0 ( is user )
-            alert('User Logged In Successfully!  Uzman check code ')
+            alert('User Logged In Successfully!')
             window.location.href = 'home.html';
         }
     }

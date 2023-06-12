@@ -259,15 +259,14 @@ textarea {
 
 .centerbox {
     border-radius: 30px;
-    padding: 10px 100px;
+    padding: 5px 40px;
     margin-top: 10px;
     border: 2px solid rgb(108, 108, 108);
 }
 
 input {
-    /* padding: 0px 10px; */
-    width: 380px;
-    height: 36px;
+    width: 350px;
+    height: 30px;
     margin: 8px;
     padding: 5px;
     padding-left: 20px;
@@ -293,7 +292,7 @@ button {
 }
 
 button:hover {
-    background-color: #d2d2d2;
+    background-color: #ffffff;
     color: #000000;
 }
 
