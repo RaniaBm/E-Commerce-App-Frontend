@@ -104,3 +104,7 @@ This is a front-end development project of E-commerce website using HTML, CSS, a
 
 ## Contact us page
 ![image](https://github.com/RaniaBm/E-Commerce-App-Frontend/assets/128255568/2e47ce18-2614-42f0-8913-4f477168e802)
+
+
+## Feedback
+you can submit your feed back at raniabm21@gmail.com
